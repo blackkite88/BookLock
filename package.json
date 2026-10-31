@@ -1,0 +1,24 @@
+{
+  "name": "concurrent-ticket-booking",
+  "version": "1.0.0",
+  "description": "A concurrent ticket booking system with seat locking mechanism to prevent double-booking",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["booking", "concurrency", "seat-locking", "mongodb"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
